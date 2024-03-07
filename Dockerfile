@@ -1,4 +1,4 @@
-FROM python:3.11.6-bookworm as builder
+FROM python:3.11.8-alpine3.19 as builder
 
 COPY . /app
 WORKDIR /app
